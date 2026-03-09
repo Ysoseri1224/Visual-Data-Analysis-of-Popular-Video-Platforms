@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+venv_chatbot/
+env/
+.env
+*.egg-info/
+dist/
+build/
+
+# Node.js
+node_modules/
+.next/
+.nuxt/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+backend.log
+frontend.log
+frontend_error.log
+douyin_creator_fetch_log.txt
+
+# Data files (large)
+data/
+browser_data/
+
+# Sensitive
+deepseek_api_key.txt
+nl2sql_model/nltk_data/
+
+# Playwright
+playwright-report/
+
+# Cache
+cache/
+.mypy_cache/
+
+# Large model files
+nl2sql_model/T5/model.safetensors
+nl2sql_model/T5/pytorch_model.bin
+nl2sql_model/T5/tf_model.h5
+nl2sql_model/T5/spiece.model
+
+# Large font files
+MediaCrawler/docs/STZHONGS.TTF
+
+# Large SQL data files
+sql/bilibili_video.sql
+sql/bilibili_up_info.sql
+
+# Large HTML test data
+MediaCrawler/media_platform/tieba/test_data/
